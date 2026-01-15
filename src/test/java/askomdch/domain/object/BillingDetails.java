@@ -1,16 +1,12 @@
 package askomdch.domain.object;
 
 public class BillingDetails {
-    private String billingFirstName;
-
     public String getBillingLastName() {
         return billingLastName;
     }
-
     public void setBillingLastName(String billingLastName) {
         this.billingLastName = billingLastName;
     }
-
     public String getBillingFirstName() {
         return billingFirstName;
     }
@@ -67,7 +63,6 @@ public class BillingDetails {
         this.billingEmail = billingEmail;
     }
 
-    private String billingLastName;
 
     public BillingDetails(String billingFirstName, String billingLastName, String billingCountry,
                           String billingAddress1,String billingCity, String billingStateName,
@@ -82,6 +77,8 @@ public class BillingDetails {
         this.billingEmail = billingEmail;
     }
 
+    private String billingFirstName;
+    private String billingLastName;
     private String billingCountry;
     private String billingAddress1;
     private String billingCity;
