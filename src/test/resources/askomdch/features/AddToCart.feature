@@ -1,3 +1,4 @@
+@addToCart
 Feature: Add to cart
 
   @smoke
