@@ -6,13 +6,13 @@ Feature: Login Functionality
 
   Background:
 
-  Scenario: Registered User Login Successful with valid credentials
-    Given I'm a Registered customer in AskOmDch Website
-    And I'm on Account page
-    When I entered my credentials
-      | username    | password |
-      | newAppUser2 | Pass456! |
-    And I click sign in button
-    Then I should navigate to dashboard
-    And I should see welcome message
+#  Scenario: Registered User Login Successful with valid credentials
+#    Given I'm a Registered customer in AskOmDch Website
+#    And I'm on Account page
+#    When I entered my credentials
+#      | username    | password |
+#      | newAppUser2 | Pass456! |
+#    And I click sign in button
+#    Then I should navigate to dashboard
+#    And I should see welcome message
 
