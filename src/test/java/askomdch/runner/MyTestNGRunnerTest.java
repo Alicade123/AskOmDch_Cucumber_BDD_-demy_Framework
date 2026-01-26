@@ -8,7 +8,8 @@ import org.testng.annotations.DataProvider;
 @CucumberOptions(
         glue = {"askomdch"},
         features = "src/test/resources/askomdch/features",
-        plugin = "pretty"
+        plugin = "pretty",
+        tags = "@addToCart"
 )
 public class MyTestNGRunnerTest extends AbstractTestNGCucumberTests {
 
