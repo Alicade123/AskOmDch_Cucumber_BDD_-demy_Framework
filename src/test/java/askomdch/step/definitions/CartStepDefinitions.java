@@ -20,5 +20,4 @@ public class CartStepDefinitions {
         Assert.assertEquals(product.getProductName(), cartPage.getProductName());
         Assert.assertEquals(quantity, cartPage.getProductQuantity());
     }
-
 }
